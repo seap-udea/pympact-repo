@@ -12,5 +12,4 @@ commit:
 
 pull:
 	@echo "Pulling data from repository..."
-	@git reset --hard HEAD	
-	@git pull
+	@git pull --rebase
